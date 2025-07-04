@@ -1,0 +1,14 @@
+{
+  "build": {
+    "env": {
+      "NODE_ENV": "production"
+    },
+    "commands": [
+      "cd server && npm install",
+      "cd ../client && npm install && npm run build"
+    ]
+  },
+  "start": {
+    "cmd": "cd server && node server.js"
+  }
+}
